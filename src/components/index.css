@@ -343,3 +343,79 @@
     padding: 0 20px;
     justify-content: space-between;
 }
+/* Ipsum minim mollit irure */
+.qs_irure {
+    position: relative;
+}
+.qs_irure .qs_irure_info {
+    display: flex;
+    padding-bottom: 50px;
+    
+}
+.qs_irure_info_title{
+    margin-top: 40px;
+    padding: 0px 0px 0px 30px;
+}
+
+.qs_irure_info_title h4 {
+    width: 60%;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    margin-bottom: 20px;
+}
+.qs_irure_info_title p {
+    width: 70%;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+.qs_irure_info_img img {
+    border: none;
+    border-radius:  15px 0 0 15px ;
+}
+.qs_irure_title {
+    width: 100%;
+    position: absolute;
+    bottom: -160px;
+}
+.qs_irure_title .qs_irure_text {
+    display: flex;
+    justify-content: space-around;
+}
+.qs_irure_text_child {
+    background-color: #F4F0EA;
+    width: 23%;
+    border: none;
+    border-radius:  15px ;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+.qs_irure_text_child_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.qs_irure_text_child_image img {
+    width: 81px;
+    height: 86px;
+    margin-top: 50px;
+    
+
+}
+.qs_irure_text_child p {
+    margin-top: 50px;
+    width: 94%;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 22px;
+}
+.footer {
+    height: 500px;
+}
