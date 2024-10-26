@@ -36,7 +36,7 @@
 .qs_header_navbar_time h3 {
     font-family: 'Lato';
     color: #FFFFFF;
-    size: 12px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 20px;
     padding: 12px;
@@ -53,13 +53,13 @@
     padding: 0px 8px;
 }
 .qs_header_navbar_time_day .qs_header_navbar_time_day_1 h4 {
-    size: 14px;
+    font-size: 14px;
     font-family: 'Lato';
     font-weight: 400;
     line-height: 22px;
 }
 .qs_header_navbar_time_day .qs_header_navbar_time_day_1 p {
-    size: 9px;
+    font-size: 9px;
     font-family: 'Lato';
     font-weight: 400;
     line-height: 20px;
@@ -80,7 +80,7 @@
     display: flex;
 }
 .qs_header_navbar_menu_left h3 {
-    size: 14px;
+    font-size: 14px;
     font-family: 'Lato';
     font-weight: 400;
     line-height: 22px;
@@ -90,7 +90,7 @@
 }
 .qs_header_navbar_menu_right_1 {
     display: flex;
-    size: 14px;
+    font-size: 14px;
     font-family: 'Lato';
     font-weight: 400;
     line-height: 22px;
@@ -102,7 +102,7 @@
 .qs_header .qs_header_title {
     font-family: 'Lora';
     color: #FFFFFF;
-    size: 64px;
+    font-size: 64px;
     font-weight: 400;
     line-height: 74px;
     position: absolute;
@@ -120,7 +120,7 @@
 }
 .qs_ullamco .qs_ullamco_text {
     text-align: center;
-    size: 40px;
+    font-size: 40px;
     font-family: 'Lato';
     font-weight: 400;
     line-height: 54px;
@@ -143,4 +143,95 @@
     display: grid;
     justify-content: center;
     padding: 0 24rem ;
+}
+
+/* Lorem ipsum */
+.qs_ipsum {
+    padding: 60px 30px;
+    
+}
+.qs_ipsum_top {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px; 
+    width: 100%; 
+}
+.qs_ipsum_top_image {
+    width: 49.5%;
+}
+.qs_ipsum_top_title {
+    width: 49.5%;
+    background-color: #F4F0EA;
+    border: none;
+    border-radius: 30px;
+    padding: 0px 60px;
+    position:relative;
+}
+.qs_ipsum_top_title_text {
+    position: absolute;
+    bottom: 0;
+}
+.qs_ipsum_top_title_text h3 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    
+}
+.qs_ipsum_top_title_text_child{
+    margin-bottom: 30px;
+}
+.qs_ipsum_top_title_text_child h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 30px;
+}
+.qs_ipsum_top_title_text_child p {
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 22px;
+    width: 88%;
+}
+.qs_ipsum_bottom {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3px; 
+    width: 100%; 
+}
+.qs_ipsum_bottom_title {
+    position: relative;
+    
+}
+.qs_ipsum_bottom_title_text {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.qs_ipsum_bottom_title_text h3 {
+    width: 80%;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    margin-bottom: 30px;
+}
+.qs_ipsum_bottom_title_text p {
+    width: 90%;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.qs_ipsum_bottom_image {
+    width: 49.5%;
+}
+.qs_ipsum_bottom_title {
+    width: 49.5%;
+    background-color: #F4F0EA;
+    border: none;
+    border-radius: 30px;
+    padding: 0px 60px;
 }
