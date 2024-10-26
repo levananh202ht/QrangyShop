@@ -1,0 +1,26 @@
+@media screen  and (max-width: 1100px) {
+    /* Lorem ullamco  */
+    .qs_ullamco_image_1,
+    .qs_ullamco_image_2 {
+        width: 30%;
+    }
+    .qs_ullamco_title p {
+        width: 400px;
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+   /* Lorem ullamco  */
+    .qs_ullamco_image_1,
+    .qs_ullamco_image_2 {
+        width: 177px;
+    }
+    .qs_ullamco_title p {
+        width: 380px;
+        text-align: center;
+    }
+
+}

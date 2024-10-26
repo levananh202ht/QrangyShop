@@ -142,11 +142,14 @@
     border-radius: 10px;
 }
 .qs_ullamco_title {
-
+    
     text-align: center;
     display: grid;
     justify-content: center;
     padding: 0 24rem ;
+}
+.qs_ullamco_title p {
+    width: 700px;
 }
 
 /* Lorem ipsum */
