@@ -235,3 +235,111 @@
     border-radius: 30px;
     padding: 0px 60px;
 }
+
+/* info */
+.qs_info {
+    padding: 0 30px;
+}
+.qs_info .qs_info_title {
+    width: 35%;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 22px;
+}
+.qs_info .qs_info_text {
+    width: 88%;
+    font-size: 32px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 44px;
+}
+/* lorem images */
+.qs_lorem_images {
+    padding: 60px 30px;
+    display: flex;
+    gap: 10px;
+}
+.qs_lorem_images_left img {
+    border: none;
+    border-radius: 20px;
+}
+.qs_lorem_images_right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+    width: 100%; 
+}
+.qs_lorem_images_right_child_1 ,
+.qs_lorem_images_right_child_2 ,
+.qs_lorem_images_right_child_3 ,
+.qs_lorem_images_right_child_4   {
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.qs_lorem_images_right_child_1_top {
+    height: 340px;
+    background-color: #F0F2EF;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    
+}
+.qs_lorem_images_right_child_1_img,
+.qs_lorem_images_right_child_2_img,
+.qs_lorem_images_right_child_3_img,
+.qs_lorem_images_right_child_4_img {
+    text-align: center;
+}
+.qs_lorem_images_right_child_1_top_icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    
+}
+.qs_lorem_images_right_child_1_top_icon div {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.qs_lorem_images_right_child_1_top_icon div p {
+    padding: 0 3px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.qs_lorem_images_right_child_1_top_color {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.qs_lorem_images_right_child_1_top_color img {
+    height: 12px;
+}
+.qs_lorem_images_right_child_1_top_color p {
+    font-size: 12px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 20px;
+}
+.qs_lorem_images_right_child_1_bottom {
+    margin-top: 10px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
